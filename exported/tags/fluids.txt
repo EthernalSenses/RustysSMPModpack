@@ -1,25 +1,41 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jul 29, 2022 7:51:11 PM
+To refresh this file, delete it and run /reload command again! Last updated: Jun 14, 2022 11:32:37 AM
+
+#tconstruct:molten_tin
+- alltheores:molten_tin
+- alltheores:flowing_molten_tin
 
 #forge:oxygen
 - mekanism:oxygen
 - mekanism:flowing_oxygen
 
+#forge:diesel_sulfur
+- immersivepetroleum:diesel_sulfur
+
 #minecraft:water
 - minecraft:water
 - minecraft:flowing_water
-- create:flowing_honey
-- create:honey
-- create:flowing_chocolate
-- create:chocolate
 - cyclic:biomass
 - cyclic:biomass_flowing
 - cyclic:honey
 - cyclic:honey_flowing
 - cyclic:xpjuice
 - cyclic:xpjuice_flowing
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- mahoutsukai:murky_still
+- mahoutsukai:murky_flow
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
 
 #forge:biodiesel
 - pneumaticcraft:biodiesel
+- immersiveengineering:biodiesel
+
+#tconstruct:molten_osmium
+- alltheores:molten_osmium
+- alltheores:flowing_molten_osmium
 
 #forge:milk
 - minecraft:milk?
@@ -29,8 +45,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 - mekanism:uranium_hexafluoride
 - mekanism:flowing_uranium_hexafluoride
 
+#forge:pink_slime
+- industrialforegoing:pink_slime
+- industrialforegoing:pink_slime_fluid
+
 #forge:biomass
 - cyclic:biomass
+
+#tconstruct:molten_platinum
+- alltheores:molten_platinum
+- alltheores:flowing_molten_platinum
 
 #forge:sulfur_dioxide
 - mekanism:sulfur_dioxide
@@ -44,18 +68,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 - mekanismgenerators:fusion_fuel
 - mekanismgenerators:flowing_fusion_fuel
 
+#forge:xpjuice
+- mob_grinding_utils:fluid_xp
+
+#forge:sewage
+- industrialforegoing:sewage
+- industrialforegoing:sewage_fluid
+
 #forge:superheated_sodium
 - mekanism:superheated_sodium
 - mekanism:flowing_superheated_sodium
+- biggerreactors:superheated_sodium
 
 #forge:steam
 - mekanism:steam
 - mekanism:flowing_steam
+- biggerreactors:fluid_irradiated_steam
 
 #forge:experience
+- xreliquary:xp_juice_still
+- industrialforegoing:essence
+- industrialforegoing:essence_fluid
 - pneumaticcraft:memory_essence
-- sophisticatedbackpacks:xp_still
 - cofh_core:experience
+- sophisticatedbackpacks:xp_still
+- mob_grinding_utils:fluid_xp
+- pneumaticcraft:memory_essence?
+- cofh_core:experience?
 - cyclic:xpjuice
 
 #forge:slime
@@ -70,9 +109,32 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 
 #forge:diesel
 - pneumaticcraft:diesel
+- immersivepetroleum:diesel
+- immersivepetroleum:diesel_sulfur
+
+#tconstruct:molten_lead
+- alltheores:molten_lead
+- alltheores:flowing_molten_lead
 
 #forge:magma
 - cyclic:magma
+
+#resourcefulbees:resourceful_honey
+- resourcefulbees:honey
+- resourcefulbees:catnip_honey
+- resourcefulbees:honey_flowing
+- resourcefulbees:catnip_honey_flowing
+- resourcefulbees:starry_honey?
+- resourcefulbees:starry_honey_flowing?
+- resourcefulbees:starry_honey
+- resourcefulbees:rainbow_honey_flowing
+- resourcefulbees:rainbow_honey
+- resourcefulbees:starry_honey_flowing
+
+#forge:drill_fuel
+- #forge:diesel
+- #forge:diesel_sulfur
+- #forge:biodiesel
 
 #pneumaticcraft:plastic
 - pneumaticcraft:plastic
@@ -89,6 +151,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 
 #forge:creosote
 - thermal:creosote
+- immersiveengineering:creosote
+
+#appliedenergistics2:blacklisted/fluid_annihilation_plane
+
+#forge:sludge
+- industrialforegoing:sludge
+- industrialforegoing:sludge_fluid
+
+#tconstruct:molten_silver
+- alltheores:molten_silver
+- alltheores:flowing_molten_silver
 
 #forge:heavy_water
 - mekanism:heavy_water
@@ -99,23 +172,39 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 
 #forge:lubricant
 - pneumaticcraft:lubricant
+- immersivepetroleum:lubricant
 
 #forge:crude_oil
 - pneumaticcraft:oil
+- immersivepetroleum:oil
 - thermal:crude_oil
 
 #forge:redstone
 - thermal:redstone
 
+#forge:herbicide
+- immersiveengineering:herbicide
+
 #forge:tritium
 - mekanismgenerators:tritium
 - mekanismgenerators:flowing_tritium
+
+#forge:biofuel
+- industrialforegoing:biofuel
+- industrialforegoing:biofuel_fluid
+
+#tconstruct:molten_aluminum
+- alltheores:molten_aluminum
+- alltheores:flowing_molten_aluminum
 
 #twilightforest:fire_jet_fuel
 - #minecraft:lava
 
 #forge:plantoil
 - pneumaticcraft:vegetable_oil
+- immersiveengineering:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
 
 #minecraft:lava
 - minecraft:lava
@@ -127,10 +216,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 
 #forge:ethanol
 - pneumaticcraft:ethanol
+- immersiveengineering:ethanol
 
 #forge:uranium_oxide
 - mekanism:uranium_oxide
 - mekanism:flowing_uranium_oxide
+
+#forge:meat
+- industrialforegoing:meat
+- industrialforegoing:meat_fluid
 
 #forge:chocolate
 - create:flowing_chocolate
@@ -140,12 +234,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 - mekanism:chlorine
 - mekanism:flowing_chlorine
 
+#tconstruct:molten_uranium
+- alltheores:molten_uranium
+- alltheores:flowing_molten_uranium
+
+#tconstruct:molten_copper
+- alltheores:molten_copper
+- alltheores:flowing_molten_copper
+
 #forge:sodium
 - mekanism:sodium
 - mekanism:flowing_sodium
 
+#forge:concrete
+- immersiveengineering:concrete
+
 #forge:potion
 - cofh_core:potion
+- immersiveengineering:potion
 
 #twilightforest:portal_fluid
 - #minecraft:water
@@ -154,12 +260,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 - mekanism:sulfur_trioxide
 - mekanism:flowing_sulfur_trioxide
 
+#immersivepetroleum:burnable_in_flarestack
+- #forge:lubricant
+- #forge:diesel
+- #forge:diesel_sulfur
+- #forge:gasoline
+- #forge:plantoil
+- #forge:creosote
+- #forge:ethanol
+
 #forge:sulfuric_acid
 - mekanism:sulfuric_acid
 - mekanism:flowing_sulfuric_acid
 
 #forge:gasoline
 - pneumaticcraft:gasoline
+- immersivepetroleum:gasoline
+
+#tconstruct:molten_zinc
+- alltheores:molten_zinc
+- alltheores:flowing_molten_zinc
 
 #forge:ender
 - thermal:ender
@@ -187,22 +307,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 - mekanism:hydrofluoric_acid
 - mekanism:flowing_hydrofluoric_acid
 
+#tconstruct:molten_nickel
+- alltheores:molten_nickel
+- alltheores:flowing_molten_nickel
+
 #forge:brine
 - mekanism:brine
 - mekanism:flowing_brine
 
 #forge:latex
+- industrialforegoing:latex
+- industrialforegoing:latex_fluid
 - thermal:latex
 
 #forge:honey
 - cofh_core:honey
-- create:flowing_honey
-- create:honey
+- resourcefulbees:honey
 - inspirations:honey?
 - cyclic:honey
+- create:flowing_honey
+- create:honey
 
 #create:no_infinite_draining
-- astralsorcery:liquid_starlight
 - mekanism:hydrogen
 - mekanism:flowing_hydrogen
 - mekanism:oxygen
@@ -237,6 +363,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 - mekanism:flowing_steam
 - mekanism:heavy_water
 - mekanism:flowing_heavy_water
+- astralsorcery:liquid_starlight
 - mekanismgenerators:bioethanol
 - mekanismgenerators:flowing_bioethanol
 - mekanismgenerators:deuterium
@@ -245,3 +372,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jul
 - mekanismgenerators:flowing_fusion_fuel
 - mekanismgenerators:tritium
 - mekanismgenerators:flowing_tritium
+
+#forge:napalm
+- immersivepetroleum:napalm
